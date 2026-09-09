@@ -15,17 +15,40 @@ export const PROFILE = {
 export const T = {
   en: {
     status: "Open to work",
-    nav: { about: "About", work: "Work", skills: "Skills", contact: "Contact" },
+    nav: {
+      about: "About",
+      work: "Work",
+      capabilities: "Capabilities",
+      experience: "Experience",
+      contact: "Contact",
+    },
     role: "Software Developer",
     intro:
       "I build clean, end-to-end web products with React and Laravel — from database to pixel.",
+    heroCtaWork: "Explore Selected Work",
+    heroCtaResume: "Resume / CV",
+    location: "Malang, Indonesia",
+    aboutSection: "01 / ABOUT",
     aboutTitle: "About",
+    aboutLead:
+      "I build functional, end-to-end web software with an emphasis on clean code, dependable architecture, and thoughtful interfaces.",
     about: [
       "I'm a recent Computer Science graduate from Universitas Brawijaya. I like shipping things that actually work — most recently a full-stack research platform built with Laravel, React and Inertia.",
       "I care about clean code, thoughtful interfaces, and learning fast. Off the keyboard you'll find me mixing hip-hop & trap and chasing frames in Valorant.",
     ],
+    educationTitle: "Education",
+    educationSchool: "Universitas Brawijaya",
+    educationDegree: "Computer Science graduate",
+    workSection: "02 / SELECTED WORK",
     workTitle: "Selected work",
-    skillsTitle: "Skills & tools",
+    viewProject: "View Project",
+    capabilitiesSection: "03 / CAPABILITIES",
+    capabilitiesTitle: "Capabilities",
+    experienceSection: "04 / EXPERIENCE",
+    experienceTitle: "Experience",
+    contactSection: "05 / CONTACT",
+    contactHeading: "Have something worth building?",
+    contactCta: "Let's talk",
     contactTitle: "Let's build something",
     contactBody:
       "I'm open to junior / entry developer roles and freelance work. The fastest way to reach me is email.",
@@ -33,17 +56,40 @@ export const T = {
   },
   id: {
     status: "Terbuka untuk kerja",
-    nav: { about: "Tentang", work: "Karya", skills: "Skill", contact: "Kontak" },
+    nav: {
+      about: "Tentang",
+      work: "Karya",
+      capabilities: "Kemampuan",
+      experience: "Pengalaman",
+      contact: "Kontak",
+    },
     role: "Software Developer",
     intro:
       "Aku bikin produk web yang rapi dan menyeluruh pakai React dan Laravel — dari database sampai tampilan.",
+    heroCtaWork: "Lihat Karya Pilihan",
+    heroCtaResume: "Resume / CV",
+    location: "Malang, Indonesia",
+    aboutSection: "01 / TENTANG",
     aboutTitle: "Tentang",
+    aboutLead:
+      "Aku membangun perangkat lunak web yang fungsional dan menyeluruh dengan penekanan pada kode bersih, arsitektur andal, dan antarmuka yang dipikirkan matang.",
     about: [
       "Aku fresh graduate Ilmu Komputer dari Universitas Brawijaya. Aku suka bikin hal yang beneran jalan — terakhir sebuah platform riset full-stack dengan Laravel, React, dan Inertia.",
       "Aku peduli sama kode bersih, antarmuka yang dipikirin matang, dan belajar cepat. Di luar ngoding, aku nge-mix hip-hop & trap dan main Valorant.",
     ],
+    educationTitle: "Pendidikan",
+    educationSchool: "Universitas Brawijaya",
+    educationDegree: "Lulusan Ilmu Komputer",
+    workSection: "02 / KARYA PILIHAN",
     workTitle: "Karya pilihan",
-    skillsTitle: "Skill & tools",
+    viewProject: "Lihat Proyek",
+    capabilitiesSection: "03 / KEMAMPUAN",
+    capabilitiesTitle: "Kemampuan",
+    experienceSection: "04 / PENGALAMAN",
+    experienceTitle: "Pengalaman",
+    contactSection: "05 / KONTAK",
+    contactHeading: "Ada proyek yang ingin dibangun?",
+    contactCta: "Yuk ngobrol",
     contactTitle: "Yuk bikin sesuatu",
     contactBody:
       "Aku terbuka untuk posisi developer junior/entry dan kerja freelance. Cara tercepat menghubungi aku lewat email.",
@@ -51,43 +97,73 @@ export const T = {
   },
 };
 
-// Your projects. `link` is the page opened on click (live site or repo).
-// `grad` is the color of the floating hover preview.
+// Real projects only.
 export const PROJECTS = [
   {
+    index: "01",
     year: "2025",
     title: "CAMP-BIOTICS Research Center",
     tag: "Full-stack · Thesis",
     link: "#", // EDIT
-    grad: "linear-gradient(135deg, #151F27, #233946)",
+    stageType: "desktop",
     en: "A research platform for LP2M Universitas Negeri Padang — journal & article management, news, and an admin dashboard, built end to end.",
     id: "Platform riset untuk LP2M Universitas Negeri Padang — manajemen jurnal & artikel, berita, dan dashboard admin, dibangun dari nol sampai jadi.",
     stack: ["Laravel", "React", "Inertia.js", "Tailwind", "SQLite"],
   },
   {
+    index: "02",
     year: "2024",
     title: "bymis.id Fashion Catalog",
     tag: "Mobile · Client project",
     link: "#", // EDIT
-    grad: "linear-gradient(135deg, #101820, #354E5E)",
+    stageType: "mobile",
     en: "A product catalog app for a fashion brand, delivered as a complete ready-to-use build with visual assets and project files.",
     id: "Aplikasi katalog produk untuk brand fashion, dikirim sebagai build lengkap siap pakai beserta aset visual dan file project.",
     stack: ["MIT App Inventor 2", "UI Design"],
   },
+];
+
+// Professional Experience timeline.
+export const EXPERIENCES = [
   {
-    year: "—",
-    title: "Your next project",
-    tag: "Add one more",
-    link: "#",
-    grad: "linear-gradient(135deg, #151F27, #2A3C47)",
-    en: "Pick something that shows a different muscle — an API, a tool, a game. One tight sentence.",
-    id: "Pilih sesuatu yang nunjukin sisi lain — API, tools, atau game. Satu kalimat padat aja.",
-    stack: ["Tech", "Stack", "Tags"],
+    year: "2025",
+    role: { en: "Software Development Intern", id: "Software Development Intern" },
+    organization: "Diskominfo Kota Batu",
+    en: "Contributed to internal web development and software systems support during internship.",
+    id: "Berkontribusi dalam pengembangan aplikasi web dan sistem perangkat lunak selama magang.",
+    tech: ["Laravel", "Web Systems"],
   },
 ];
 
-// Logos shown in the Skills section (grayscale → brand color on hover).
-// `key` must match a react-icons/si export (see components/Skills.jsx map).
+// Editorial Capabilities groups.
+export const CAPABILITIES = [
+  {
+    index: "01",
+    en: "Frontend",
+    id: "Frontend",
+    items: ["React", "Inertia.js", "Tailwind CSS", "TypeScript", "JavaScript"],
+  },
+  {
+    index: "02",
+    en: "Backend & Data",
+    id: "Backend & Data",
+    items: ["Laravel", "PHP", "REST APIs", "SQLite", "MySQL"],
+  },
+  {
+    index: "03",
+    en: "Mobile",
+    id: "Mobile",
+    items: ["MIT App Inventor 2", "UI Design", "Responsive Layouts"],
+  },
+  {
+    index: "04",
+    en: "Tools & Workflow",
+    id: "Tools & Workflow",
+    items: ["Git & GitHub", "Vite", "Figma"],
+  },
+];
+
+// Preserved for backwards compatibility during migration.
 export const LOGOS = [
   { key: "react", brand: "#61DAFB" },
   { key: "laravel", brand: "#FF2D20" },
@@ -101,10 +177,9 @@ export const LOGOS = [
   { key: "figma", brand: "#F24E1E" },
 ];
 
-// Skill groups (text lists under the logos).
 export const SKILLS = [
   { en: "Languages", id: "Bahasa", items: ["JavaScript", "TypeScript", "PHP", "SQL"] },
   { en: "Frontend", id: "Frontend", items: ["React", "Inertia.js", "Tailwind"] },
   { en: "Backend & Data", id: "Backend & Data", items: ["Laravel", "REST APIs", "SQLite", "MySQL"] },
-  { en: "Tools", id: "Tools", items: ["Git & GitHub", "Vite", "Figma"] },
+  { en: "Tools & Workflow", id: "Tools & Workflow", items: ["Git & GitHub", "Vite", "Figma"] },
 ];
