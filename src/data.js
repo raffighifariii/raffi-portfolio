@@ -59,7 +59,7 @@ export const PROJECTS = [
     title: "CAMP-BIOTICS Research Center",
     tag: "Full-stack · Thesis",
     link: "#", // EDIT
-    grad: "linear-gradient(135deg,#8b7cff,#38e0ef)",
+    grad: "linear-gradient(135deg, #151F27, #233946)",
     en: "A research platform for LP2M Universitas Negeri Padang — journal & article management, news, and an admin dashboard, built end to end.",
     id: "Platform riset untuk LP2M Universitas Negeri Padang — manajemen jurnal & artikel, berita, dan dashboard admin, dibangun dari nol sampai jadi.",
     stack: ["Laravel", "React", "Inertia.js", "Tailwind", "SQLite"],
@@ -69,7 +69,7 @@ export const PROJECTS = [
     title: "bymis.id Fashion Catalog",
     tag: "Mobile · Client project",
     link: "#", // EDIT
-    grad: "linear-gradient(135deg,#ff7ac4,#8b7cff)",
+    grad: "linear-gradient(135deg, #101820, #354E5E)",
     en: "A product catalog app for a fashion brand, delivered as a complete ready-to-use build with visual assets and project files.",
     id: "Aplikasi katalog produk untuk brand fashion, dikirim sebagai build lengkap siap pakai beserta aset visual dan file project.",
     stack: ["MIT App Inventor 2", "UI Design"],
@@ -79,7 +79,7 @@ export const PROJECTS = [
     title: "Your next project",
     tag: "Add one more",
     link: "#",
-    grad: "linear-gradient(135deg,#38e0ef,#ff7ac4)",
+    grad: "linear-gradient(135deg, #151F27, #2A3C47)",
     en: "Pick something that shows a different muscle — an API, a tool, a game. One tight sentence.",
     id: "Pilih sesuatu yang nunjukin sisi lain — API, tools, atau game. Satu kalimat padat aja.",
     stack: ["Tech", "Stack", "Tags"],
