@@ -1,0 +1,17 @@
+{
+  "js/ts.preferences.includePackageJsonAutoImports": "auto",
+
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "selection",
+
+  "workbench.editor.enablePreview": false,
+
+  "terminal.integrated.fontSize": 13,
+
+  "diffEditor.renderSideBySide": true,
+
+  "files.autoSave": "off"
+}
